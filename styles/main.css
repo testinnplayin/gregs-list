@@ -44,6 +44,20 @@ nav ul li {
 	float: left;
 }
 
+.logo a:link,
+.logo a:visited {
+	color: #000;
+}
+
+.logo a:hover {
+	color: red;
+}
+
+.logo a:active {
+	color: tomato;
+	font-size: 20px;
+}
+
 .right {
 	float: right;
 	margin-left: 10px;

@@ -1,0 +1,50 @@
+/* Style sheel for Greg's List. Author: R. Wood, Date: Oct, 2016. */
+
+/* GENERAL STYLES */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+p {
+	color: #C0C0C0;
+}
+
+li a,
+p a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+
+/* NAVIGATION STYLES */
+
+.nav-bar {
+	background: #C0C0C0;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.logo {
+	float: left;
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}

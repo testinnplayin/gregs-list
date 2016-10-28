@@ -1,0 +1,1 @@
+A CSS layout challenge from Thinkful.com's bootcamp. Presenting Greg's List, the competitor to Craigslist.

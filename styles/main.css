@@ -12,6 +12,11 @@ html {
 	box-sizing: inherit;
 }
 
+p,
+li a {
+	font-size: 18px;
+}
+
 p {
 	color: #C0C0C0;
 }
@@ -88,7 +93,7 @@ nav ul li {
 main {
 	padding-top: 50px;
 	width: 100%;
-	height: 1000px;
+	height: 750px;
 }
 
 
@@ -96,7 +101,6 @@ main {
 .results {
 	width: 90%;
 	margin-left: 150px;
-
 }
 
 
@@ -173,4 +177,32 @@ main {
 
 .btn:active {
 	padding: 15px;
+}
+
+
+
+/* RESULTS */
+
+.results {
+	margin-top: 50px;
+}
+
+.job-link {
+	margin: 0 5px;
+}
+
+.job-link:link {
+	color: blue;
+}
+
+.job-link:visited {
+	color: #000;
+}
+
+.job-link:hover {
+	color: tomato;
+}
+
+.job-link:active {
+	color: lightblue;
 }

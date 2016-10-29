@@ -114,7 +114,7 @@ main {
 #search,
 .mag-glass-a {
 	vertical-align: middle;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 #search {
@@ -164,6 +164,7 @@ main {
 .btn {
 	background: #fff;
 	padding: 10px;
+	border: 1px solid black;
 }
 
 .btn:link,
@@ -179,6 +180,15 @@ main {
 	padding: 15px;
 }
 
+.prev-btn {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.next-btn {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
 
 
 /* RESULTS */

@@ -177,7 +177,8 @@ main {
 	background: #C0C0C0;
 }
 
-.btn:active {
+.prev-btn:active,
+.next-btn:active {
 	padding: 15px;
 }
 

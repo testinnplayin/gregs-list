@@ -62,3 +62,21 @@ nav ul li {
 	float: right;
 	margin-left: 10px;
 }
+
+.right a:link,
+.right a:visited {
+	color: blue;
+}
+
+.right a:hover {
+	color: #000;
+}
+
+.right a:active {
+	color: lightblue;
+	font-size: 20px;
+}
+
+
+
+/* SEARCH BOX STYLES */

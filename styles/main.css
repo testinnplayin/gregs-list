@@ -93,7 +93,6 @@ main {
 
 
 .form-container,
-.second-nav,
 .results {
 	width: 90%;
 	margin-left: 150px;
@@ -143,4 +142,35 @@ main {
 .mag-glass:active {
 	height: 35px;
 	width: 35px;
+}
+
+
+
+/* SECOND NAV */
+
+.second-nav {
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.second-nav ul li {
+	display: inline-block;
+}
+
+.btn {
+	background: #fff;
+	padding: 10px;
+}
+
+.btn:link,
+.btn:visited {
+	color: #000;
+}
+
+.btn:hover {
+	background: #C0C0C0;
+}
+
+.btn:active {
+	padding: 15px;
 }
